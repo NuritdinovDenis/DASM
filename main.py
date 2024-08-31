@@ -1,6 +1,6 @@
 def assemble(file_input, file_output):
     instruction_set = {
-        "mov ax, bx": b'\x89\xD8',  код)
+        "mov ax, bx": b'\x89\xD8',
         "add ax, bx": b'\x01\xD8'  
     }
     
